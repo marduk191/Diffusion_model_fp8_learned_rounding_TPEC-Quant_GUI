@@ -76,7 +76,7 @@ class FP8QuantizationGUI:
         main_frame.columnconfigure(1, weight=1)
         
         # Title
-        title_label = ttk.Label(main_frame, text="FP8 Model Quantization Tool", 
+        title_label = ttk.Label(main_frame, text="FP8 TPEC-Quant Quantization Tool", 
                                font=('TkDefaultFont', 16, 'bold'))
         title_label.grid(row=0, column=0, columnspan=3, pady=(0, 20))
         
