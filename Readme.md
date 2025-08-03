@@ -142,7 +142,7 @@ The quantized models maintain high quality through:
 ### Common Issues
 
 1. **FP8 Not Supported**
-   - Solution: Update to PyTorch nightly build with FP8 support
+   - Solution: Update to PyTorch build with FP8 support
 
 2. **Out of Memory**
    - Solution: Reduce `calib_samples` or use CPU processing
@@ -179,21 +179,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 - Inspired by the AdaRound paper: "Up or Down? Adaptive Rounding for Post-Training Quantization"
-- Memory-efficient loading/saving code by marduk191
+- Memory-efficient loading/saving and GUI code by marduk191
 - Core quantization implementation by Clybius
+- initial merging and raw tensor fix by silveroxides
 
-## Citation
-
-If you use this tool in your research, please cite:
-
-```bibtex
-@software{fp8_quantization_tool,
-  title={FP8 Model Quantization Tool},
-  author={Clybius and marduk191},
-  year={2024},
-  url={https://github.com/your-username/fp8-quantization-tool}
-}
-```
 
 ## Changelog
 
