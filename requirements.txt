@@ -1,0 +1,20 @@
+# Core dependencies
+torch>=2.1.0
+tqdm>=4.65.0
+numpy>=1.24.0
+
+# GUI dependencies
+tkinter  # Usually included with Python, but listed for completeness
+
+# Optional but recommended for better performance
+# Uncomment if you want to install these
+# torch-audio>=2.1.0  # For some PyTorch features
+# torchvision>=0.16.0  # For some PyTorch features
+
+# Development dependencies (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
+
+# Note: For FP8 support, you may need PyTorch nightly builds
+# Install with: pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/cu121
